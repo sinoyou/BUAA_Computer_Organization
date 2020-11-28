@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug_two_always.xst" -ofn "H:/ISE_projects/p1_homework/debug_two_always.syr" 
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug_two_always.xst" -ofn "H:/ISE_projects/p1_homework/debug_two_always.syr" 
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug_two_always.xst" -ofn "H:/ISE_projects/p1_homework/debug_two_always.syr" 
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug_two_always.xst" -ofn "H:/ISE_projects/p1_homework/debug_two_always.syr" 

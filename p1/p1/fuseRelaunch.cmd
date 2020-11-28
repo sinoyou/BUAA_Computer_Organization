@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "H:/ISE_projects/p1_homework/debug_zongxian_tb_isim_beh.exe" -prj "H:/ISE_projects/p1_homework/debug_zongxian_tb_beh.prj" "work.debug_zongxian_tb" "work.glbl" 

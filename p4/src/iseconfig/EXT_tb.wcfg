@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/ISE_projects/p4_finalversion/EXT_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="EXT_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/EXT_tb/Output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Output[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EXT_tb/ExtOp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ExtOp</obj_property>
+      <obj_property name="ObjectShortName">ExtOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EXT_tb/Input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Input[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Input[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

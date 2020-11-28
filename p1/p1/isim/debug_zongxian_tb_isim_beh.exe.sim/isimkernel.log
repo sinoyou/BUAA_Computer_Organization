@@ -1,0 +1,29 @@
+Command line:
+   debug_zongxian_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2215
+
+Wed Oct 31 22:44:01 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5178.75 Meg
+
+ Total Signals          : 14
+ Total Nets             : 21
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 135
+Total Line Count : 26
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 4706.89 Meg
+
+Wed Oct 31 23:50:16 2018
+

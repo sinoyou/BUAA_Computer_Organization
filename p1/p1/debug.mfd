@@ -1,0 +1,21 @@
+MDF Database:  version 1.0
+MDF_INFO | debug | XA9536XL-15-VQ44
+MACROCELL | 1 | 1 | out_OBUF
+ATTRIBUTES | 8684291 | 0
+INPUTS | 7 | in<3>  | in<5>  | in<4>  | in<6>  | in<7>  | in<2>  | in<1>
+INPUTP | 7 | 47 | 34 | 3 | 6 | 7 | 42 | 45
+EQ | 3 | 
+   out.D = !in<3> & in<5> & in<4> & !in<6> & !in<7>
+	# in<5> & in<4> & !in<2> & !in<1> & !in<6> & !in<7>;
+   out.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+PIN | in<3> | 64 | 0 | N/A | 47 | 1 | 1 | 1
+PIN | in<5> | 64 | 0 | N/A | 34 | 1 | 1 | 1
+PIN | in<4> | 64 | 0 | N/A | 3 | 1 | 1 | 1
+PIN | in<2> | 64 | 0 | N/A | 42 | 1 | 1 | 1
+PIN | in<1> | 64 | 0 | N/A | 45 | 1 | 1 | 1
+PIN | in<6> | 64 | 0 | N/A | 6 | 1 | 1 | 1
+PIN | in<7> | 64 | 0 | N/A | 7 | 1 | 1 | 1
+PIN | clk | 4096 | 0 | N/A | 10 | 1 | 1 | 1
+PIN | out | 536871040 | 0 | N/A | 5

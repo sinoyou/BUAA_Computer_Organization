@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib uni9000_ver -lib aim_ver -lib cpld_ver -lib xilinxcorelib_ver -o H:/ISE_projects/p1_homework/debug_zongxian_tb_isim_beh.exe -prj H:/ISE_projects/p1_homework/debug_zongxian_tb_beh.prj work.debug_zongxian_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "H:/ISE_projects/p1_homework/debug_zongxian.v" into library work
+Analyzing Verilog file "H:/ISE_projects/p1_homework/debug_zongxian_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module debug_zongxian
+Compiling module debug_zongxian_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/debug_zongxian_tb_isim_beh.exe.sim/debug_zongxian_tb_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: ¾Ü¾ø·ÃÎÊ¡£: "isim\debug_zongxian_tb_isim_beh.exe.sim\debug_zongxian_tb_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/ISE_projects/p5_1/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/FD_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FD_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FD_ir[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/FD_pc4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FD_pc4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FD_pc4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/FD_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FD_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FD_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rd1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rd2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/tmux_grf_rd1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmux_grf_rd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmux_grf_rd1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/tmux_grf_rd2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmux_grf_rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmux_grf_rd2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ext[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmp</obj_property>
+      <obj_property name="ObjectShortName">cmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DE_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DE_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_ir[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DE_pc4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DE_pc4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_pc4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DE_rd1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DE_rd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_rd1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DE_rd2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DE_rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_rd2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DE_ext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DE_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_ext[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DE_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DE_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/tmux_de_rd1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmux_de_rd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmux_de_rd1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/tmux_de_rd2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmux_de_rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmux_de_rd2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/aluout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/EM_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EM_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EM_ir[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/EM_rd2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EM_rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EM_rd2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/EM_alu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EM_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EM_alu[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/EM_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EM_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EM_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/tmux_em_rd2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmux_em_rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmux_em_rd2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/md" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">md[31:0]</obj_property>
+      <obj_property name="ObjectShortName">md[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MW_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MW_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MW_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

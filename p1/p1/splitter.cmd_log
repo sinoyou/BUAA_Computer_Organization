@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/splitter.xst" -ofn "H:/ISE_projects/p1_homework/splitter.syr" 

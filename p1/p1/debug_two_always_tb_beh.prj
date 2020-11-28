@@ -1,0 +1,3 @@
+verilog work "debug_two_always.v"
+verilog work "debug_two_always_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

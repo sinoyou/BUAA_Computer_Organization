@@ -1,0 +1,18 @@
+@echo off
+for /f %%i in ('dir zzz_testcode /b') do (
+
+    @echo "%%i"
+
+    java -jar zzz_Mars4.jar 5000000 test_cases\%%i nc db mc CompactDataAtZero dump .text HexText zzz_code.txt > zzz_mars_out.txt
+
+    echo run 3000 ns; quit -f | mips_tb_isim_beh.exe -log zzz_isim_out.txt > nul
+
+    findstr "~" zzz_isim_out.txt > zzz_actual.txt
+
+    findstr "~" zzz_mars_out.txt > zzz_expected.txt
+
+    fc /A actual.txt expected.txt
+
+)
+
+pause

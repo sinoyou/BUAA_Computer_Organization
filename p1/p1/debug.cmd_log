@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug.xst" -ofn "H:/ISE_projects/p1_homework/debug.syr" 
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug.xst" -ofn "H:/ISE_projects/p1_homework/debug.syr" 
+xst -intstyle ise -ifn "H:/ISE_projects/p1_homework/debug.xst" -ofn "H:/ISE_projects/p1_homework/debug.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl debug.ngc debug.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper debug.ngd 
+XSLTProcess debug_build.xml 
+tsim -intstyle ise debug debug.nga 
+taengine -intstyle ise -f debug -w --format html1 -l debug_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n debug -i debug 

@@ -1,0 +1,59 @@
+Pipe 4; AT-add:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-addu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-sub:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-subu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-sll:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-srl:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-sra:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-sllv:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-srlv:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-srav:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-and:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-or:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-xor:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-nor:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-slt:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-sltu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+
+Pipe 4; AT-mult:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=2;
+Pipe 4; AT-multu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=2;
+Pipe 4; AT-div:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=2;
+Pipe 4; AT-divu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=2;
+Pipe 4; AT-mthi:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=2;
+Pipe 4; AT-mtlo:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=2;
+Pipe 4; AT-mfhi:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-mflo:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+
+Pipe 4; AT-addi:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-addiu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-andi:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-ori:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-xori:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-lui:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-slti:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+Pipe 4; AT-stliu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;
+
+Pipe 4; AT-lw:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=3;
+Pipe 4; AT-lb:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=3;
+Pipe 4; AT-lbu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=3;
+Pipe 4; AT-lh:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=3;
+Pipe 4; AT-lhu:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=3;
+
+Pipe 4; AT-sw:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-sh:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-sb:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+
+Pipe 4; AT-beq:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-bne:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-blez:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-bgtz:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-bltz:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+Pipe 4; AT-bgez:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+
+Pipe 4; AT-j:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+
+Pipe 4; AT-jal:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3=31; Tnew=0; DPort=2;
+
+Pipe 4; AT-jr:Tuse_Rs=7; Tuse_Rt=7; RWNZ=0; A3= 0; Tnew=0; DPort=0;
+
+Pipe 4; AT-jalr:Tuse_Rs=7; Tuse_Rt=7; RWNZ=1; A3= 1; Tnew=0; DPort=2;

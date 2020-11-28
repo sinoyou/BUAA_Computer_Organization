@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/ISE_projects/p4_finalversion/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/Op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Op[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/Function" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Function[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Function[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/MemRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/Branch_Jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch_Jump</obj_property>
+      <obj_property name="ObjectShortName">Branch_Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/WaSel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WaSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WaSel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/WdSel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WdSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WdSel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/ExtOp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ExtOp</obj_property>
+      <obj_property name="ObjectShortName">ExtOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/AluSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">AluSrc</obj_property>
+      <obj_property name="ObjectShortName">AluSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/AluOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AluOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AluOp[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/nPc_Sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nPc_Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nPc_Sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/addu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addu</obj_property>
+      <obj_property name="ObjectShortName">addu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/subu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">subu</obj_property>
+      <obj_property name="ObjectShortName">subu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jr</obj_property>
+      <obj_property name="ObjectShortName">jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/sll" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sll</obj_property>
+      <obj_property name="ObjectShortName">sll</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/ori" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ori</obj_property>
+      <obj_property name="ObjectShortName">ori</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/lw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lw</obj_property>
+      <obj_property name="ObjectShortName">lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/beq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">beq</obj_property>
+      <obj_property name="ObjectShortName">beq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/lui" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lui</obj_property>
+      <obj_property name="ObjectShortName">lui</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/controller/jal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jal</obj_property>
+      <obj_property name="ObjectShortName">jal</obj_property>
+   </wvobject>
+</wave_config>
