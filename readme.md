@@ -6,7 +6,7 @@
 - Course Grade: 100/100
 - Evaluation: Independent Development, In-Class Black Box Test + Q&A
 - Coding Language: Verilog, MIPS32, Python (for auto test)
-- Software: Xilinx ISE, MARS (MIPS32 Simulator), Logisim 
+- Software: Xilinx ISE, MARS (MIPS32 assemble simulator), Logisim (interactive circuits simulator)
 
 
 
@@ -64,8 +64,8 @@
 #### P8
 
 - Design and build on **FPGA** a **pipeline CPU** supporting **53** MIPS instructions and **inner and outer exceptions**. 
-- Implement a **micro system hardware** with CPU, system bridge, drivers and devices. 
-- Implement the **system software part** with assemble languages to run tasks such as arithmetic, timing and message echo. 
+- Implement on **FPGA** a **micro system hardware** with CPU, system bridge, drivers and devices. 
+- Implement the **micro system software** with assemble languages to run tasks such as arithmetic, timing and message echo. 
 - Software and Languages: Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** 
   - [P8-CPU-Report(Chinese)](p8/P8-CPU-Report.pdf)
