@@ -31,28 +31,35 @@
 
 - Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **in an interactive form**. 
 - Software: Logisim, MARS; MIPS32
+- **Report:** [P3-CPU-Report(Chinese)](p3/P3-CPU-Report.pdf)
 
 #### P4
 
 - Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **in an abstract and coding form**.
 - Software and Languages: Xilinx ISE, MARS; Verilog, MIPS32
+- **Report:** [P4-CPU-Report(Chinese)](p4/P4-CPU-Report.pdf)
+- <img src="readme.assets/76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c.jpeg" alt="76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c" width="600" />
 
 #### P5
 
 - Design and build a **5-level pipeline CPU** supporting **7** basic MIPS instructions with **full forward and minimum hold**. 
 - Software and Languages: Xilinx ISE, MARS; Verilog, MIPS32
+- **Report:** [P5-CPU-Report(Chinese)](p5/P5-CPU-Report.pdf)
+- <img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600" />
 
 #### P6
 
 - Design and build a **5-level pipeline CPU** supporting **50** MIPS instructions with **full forward and minimum hold**. 
 - Development with engineering methods, which enables swift adjustments under new requirements. 
 - Software and Languages: Xilinx ISE, MARS; Verilog, MIPS32
+- **Report:** [P6-CPU-Report(Chinese)](p6/P6-CPU-Report.pdf)
 
 #### P7
 
 - Design and build a **pipeline CPU** supporting **54** MIPS instructions and **inner and outer exceptions**. 
 - Implement a **micro system hardware** with CPU, system bridge, drivers and timers. 
 - Software and Languages: Xilinx ISE, MARS; Verilog, MIPS32
+- **Report:** [P7-CPU-Report(Chinese)](p7/P7-CPU-Report.pdf)
 
 #### P8
 
@@ -60,6 +67,10 @@
 - Implement a **micro system hardware** with CPU, system bridge, drivers and devices. 
 - Implement the **system software part** with assemble languages to run tasks such as arithmetic, timing and message echo. 
 - Software and Languages: Xilinx ISE, MARS; Verilog, MIPS32
+- **Report:** 
+  - [P8-CPU-Report(Chinese)](p8/P8-CPU-Report.pdf)
+  - [P8-OS-Report(Chinese)](p8/P8-OS-Report.pdf)
+- <img src="readme.assets/FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c.jpeg" alt="FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c" width="600" />
 
 
 
@@ -67,11 +78,11 @@
 
 #### Supported MIPS32 Instructions
 
-<img src="readme.assets/image-20201128205958916.png" alt="image-20201128205958916" style="zoom:50%;" />
+<img src="readme.assets/image-20201128205958916.png" alt="image-20201128205958916" width="400" />
 
 #### Data Path of P8 CPU
 
-<img src="readme.assets/图片 1.png" alt="图片 1" style="zoom:67%;" />
+<img src="readme.assets/图片 1.png" alt="图片 1" width="600" />
 
 #### Rules for Hold and Forward in Pipeline CPU (Tuse/Tnew)
 
@@ -91,4 +102,4 @@
 
 #### Supported Exceptions of P8 CPU
 
-<img src="readme.assets/图片 1-6568542.png" alt="图片 1" style="zoom: 67%;" />
+<img src="readme.assets/图片 1-6568542.png" alt="图片 1" width="700" />
