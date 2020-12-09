@@ -43,7 +43,9 @@
   - Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **in an abstract and coding form**.
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P4-CPU-Report(Chinese)](p4/P4-CPU-Report.pdf)
-- <img src="readme.assets/76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c.jpeg" alt="76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c" width="600" />
+<div align=center>
+<img src="readme.assets/76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c.jpeg" alt="76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c" width="600"/>
+</div>
 
 #### P5
 
@@ -51,7 +53,7 @@
   - Design and build a **5-level pipeline CPU** supporting **7** basic MIPS instructions with **full forward and minimum hold**. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P5-CPU-Report(Chinese)](p5/P5-CPU-Report.pdf)
-- <img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600" />
+<img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600" />
 
 #### P6
 
@@ -68,7 +70,7 @@
   - Implement a **micro system hardware** with CPU, system bridge, drivers and timers. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P7-CPU-Report(Chinese)](p7/P7-CPU-Report.pdf)
-- <img src="readme.assets/image-20201203202440253.png" alt="image-20201203202440253" width="500" />
+<img src="readme.assets/image-20201203202440253.png" alt="image-20201203202440253" width="500" />
 
 #### P8
 
@@ -80,7 +82,7 @@
 - **Report:** 
   - [P8-CPU-Report(Chinese)](p8/P8-CPU-Report.pdf)
   - [P8-OS-Report(Chinese)](p8/P8-OS-Report.pdf)
-- <img src="readme.assets/FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c.jpeg" alt="FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c" width="600" />
+<img src="readme.assets/FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c.jpeg" alt="FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c" width="600" />
 
 
 
