@@ -7,7 +7,7 @@
 - **Evaluation**: Independent Development, Black Box Test + Q&A
 - **Coding Language**: Verilog, MIPS32, Python (for auto test)
 - **Software**: Xilinx ISE, MARS (MIPS32 assemble simulator), Logisim (interactive circuits simulator)
-- **Reference: ** The course is developed  on [UC Berkeley CS152 Computer Architecture and Engineering](https://inst.eecs.berkeley.edu/~cs152/sp20/)
+- **Reference:** The course is developed  on [UC Berkeley CS152 Computer Architecture and Engineering](https://inst.eecs.berkeley.edu/~cs152/sp20/)
 - **Guide Book**
   - [BUAA CS Core MOOC](http://cscore.net.cn)
   - [See MIPS Run Linux](See-Mips-Run-Linux.pdf)
