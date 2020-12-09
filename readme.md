@@ -114,4 +114,4 @@
 
 #### Supported Exceptions of P8 CPU
 
-<img src="readme.assets/图片 1-6568542.png" alt="图片 1" width="700" />
+<div align=center><img src="readme.assets/图片 1-6568542.png" alt="图片 1" width="700" /></div>
