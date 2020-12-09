@@ -53,7 +53,7 @@
   - Design and build a **5-level pipeline CPU** supporting **7** basic MIPS instructions with **full forward and minimum hold**. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P5-CPU-Report(Chinese)](p5/P5-CPU-Report.pdf)
-<img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600" align="center"/>
+<img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600" align=center/>
 
 #### P6
 
