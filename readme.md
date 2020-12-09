@@ -53,7 +53,7 @@
   - Design and build a **5-level pipeline CPU** supporting **7** basic MIPS instructions with **full forward and minimum hold**. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P5-CPU-Report(Chinese)](p5/P5-CPU-Report.pdf)
-<img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600" align=center/>
+<div align=center><img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600"/></div>
 
 #### P6
 
@@ -70,7 +70,7 @@
   - Implement a **micro system hardware** with CPU, system bridge, drivers and timers. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P7-CPU-Report(Chinese)](p7/P7-CPU-Report.pdf)
-<img src="readme.assets/image-20201203202440253.png" alt="image-20201203202440253" width="500" />
+<div align=center><img src="readme.assets/image-20201203202440253.png" alt="image-20201203202440253" width="500" /></div>
 
 #### P8
 
@@ -82,7 +82,7 @@
 - **Report:** 
   - [P8-CPU-Report(Chinese)](p8/P8-CPU-Report.pdf)
   - [P8-OS-Report(Chinese)](p8/P8-OS-Report.pdf)
-<img src="readme.assets/FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c.jpeg" alt="FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c" width="600" />
+<div align=center><img src="readme.assets/FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c.jpeg" alt="FA73C03D-C81F-4502-AFBA-271A7F580824_1_105_c" width="600" /></div>
 
 
 
@@ -90,11 +90,11 @@
 
 #### Supported MIPS32 Instructions
 
-<img src="readme.assets/image-20201128205958916.png" alt="image-20201128205958916" width="400" />
+<div align=center><img src="readme.assets/image-20201128205958916.png" alt="image-20201128205958916" width="400" /></div>
 
 #### Data Path of P8 CPU
 
-<img src="readme.assets/图片 1.png" alt="图片 1" width="600" />
+<div align=center><img src="readme.assets/图片 1.png" alt="图片 1" width="600" /></div>
 
 #### Rules for Hold and Forward in Pipeline CPU (Tuse/Tnew)
 
