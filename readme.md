@@ -36,6 +36,9 @@
 - **Target**: Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **in an interactive form**. 
 - **Software:** Logisim, MARS; MIPS32
 - **Report:** [P3-CPU-Report(Chinese)](p3/P3-CPU-Report.pdf)
+<div align=center>
+<img src="readme.assets/76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c.jpeg" alt="76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c" width="600"/>
+</div>
 
 #### P4
 
@@ -43,9 +46,6 @@
   - Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **in an abstract and coding form**.
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P4-CPU-Report(Chinese)](p4/P4-CPU-Report.pdf)
-<div align=center>
-<img src="readme.assets/76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c.jpeg" alt="76D5AD05-8A19-4650-A4B5-7756A057914E_1_105_c" width="600"/>
-</div>
 
 #### P5
 
