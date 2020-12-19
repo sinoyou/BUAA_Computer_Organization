@@ -28,7 +28,7 @@
 
 #### P2
 
-- **Target**: Warm up for MIPS. Implement algorithms with assemble languages or translate C program to assemble program. 
+- **Target**: Warm up for MIPS. Implement algorithms with assemble code or translate C programs to assemble programs. 
 - **Software and Coding Languages:** MARS; MIPS32
 
 #### P3
@@ -43,14 +43,14 @@
 #### P4
 
 - **Target**: 
-  - Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **in an abstract and coding form**.
+  - Design and build a **single-cycle CPU** supporting **7** basic MIPS instructions **with hardware description language(HDL)**.
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P4-CPU-Report(Chinese)](p4/P4-CPU-Report.pdf)
 
 #### P5
 
 - **Target**: 
-  - Design and build a **5-level pipeline CPU** supporting **7** basic MIPS instructions with **full forward and minimum hold**. 
+  - Design and build a **5-level pipeline CPU** supporting **7** basic MIPS instructions with **full forwarding and least holding times**. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P5-CPU-Report(Chinese)](p5/P5-CPU-Report.pdf)
 <div align=center><img src="readme.assets/image-20201203201102327.png" alt="image-20201203201102327" width="600"/></div>
@@ -58,15 +58,15 @@
 #### P6
 
 - **Target**: 
-  - Design and build a **5-level pipeline CPU** supporting **50** MIPS instructions with **full forward and minimum hold**. 
-  - Development with engineering methods, which enables swift adjustments under new requirements. 
+  - Design and build a **5-level pipeline CPU** supporting **50** MIPS instructions with **full forwarding and least holding times**. 
+  - Develop the CPU with engineering methods, which enables swift adjustments under new requirements. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P6-CPU-Report(Chinese)](p6/P6-CPU-Report.pdf)
 
 #### P7
 
 - **Target**: 
-  - Design and build a **pipeline CPU** with **CP0**, supporting **54** MIPS instructions and **inner and outer exceptions**. 
+  - Design and build a **pipeline CPU** with **CP0**, supporting **54** MIPS instructions and **exceptions and interrupts**. 
   - Implement a **micro system hardware** with CPU, system bridge, drivers and timers. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** [P7-CPU-Report(Chinese)](p7/P7-CPU-Report.pdf)
@@ -75,9 +75,9 @@
 #### P8
 
 - **Target**: 
-  - Design and build on **FPGA** a **pipeline CPU** supporting **53** MIPS instructions and **inner and outer exceptions**. 
-  - Implement on **FPGA** a **micro system hardware** with CPU, system bridge, drivers and devices. 
-  - Implement the **micro system software** with assemble languages to run tasks such as arithmetic, timing and message echo. 
+  - Design and build on **FPGA** a **pipeline CPU** supporting **53** MIPS instructions and **exceptions and interrupts**. 
+  - Implement on **FPGA** the hardware part of a **micro system**, including CPU, system bridge, drivers and devices. 
+  - Implement the software part of a **micro system** with assemble code to run tasks such as arithmetic, timing and message echo. 
 - **Software and Languages:** Xilinx ISE, MARS; Verilog, MIPS32
 - **Report:** 
   - [P8-CPU-Report(Chinese)](p8/P8-CPU-Report.pdf)
